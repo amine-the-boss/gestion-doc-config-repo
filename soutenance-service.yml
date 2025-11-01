@@ -1,2 +1,2 @@
-config:
-  placeholder: true
+server:
+  port: 8083

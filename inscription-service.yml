@@ -1,2 +1,10 @@
-config:
-  placeholder: true
+server:
+  port: 8082
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          defaut:
+            connect-timeout: 5000
+            read-timeout: 5000
